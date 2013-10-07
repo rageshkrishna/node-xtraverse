@@ -11,5 +11,5 @@ before_install:
 
 script: "make ci-travis"
 
-after_success:
-  - "make submit-coverage-to-coveralls"
+#after_success:
+#  - "make submit-coverage-to-coveralls"
